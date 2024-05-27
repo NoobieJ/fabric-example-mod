@@ -1,0 +1,17 @@
+modLoader="fabric"
+loaderVersion="[0.12.8,)"
+license="MIT"
+[[mods]]
+modId="mymod"
+version="1.0.0"
+displayName="MyMod"
+description="A Minecraft mod adding RPG elements with stats and leveling."
+authors="Your Name"
+contact={
+  homepage="https://example.com",
+  sources="https://github.com/your-repo"
+}
+[[dependencies.mymod]]
+modId="fabric"
+mandatory=true
+version="1.0.0"
